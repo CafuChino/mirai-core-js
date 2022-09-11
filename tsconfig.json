@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "typeRoots": [
+      "node_modules/@types",
+      "./interfaces"
+    ],
+    "esModuleInterop": true,
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    "docs",
+    "scripts",
+    "test",
+    "tests",
+    "tmp",
+    "tmp-*",
+  ]
+}
