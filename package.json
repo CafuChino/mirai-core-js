@@ -1,6 +1,6 @@
 {
   "name": "mirai-core-js",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "mirai-core wrapper for JavaScript",
   "main": "dist/core.js",
   "types": "src/core.ts",
